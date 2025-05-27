@@ -97,20 +97,59 @@ b = 32'h55555555;
 f = 3'b000; #10;
 
 // Test OR
-a = 32'hAAAAAAAA; b = 32'h55555555; f = 3'b001; #10;
+
+a = 32'hAAAAAAAA; 
+
+b = 32'h55555555; 
+
+f = 3'b001; #10;
+
 // Test NAND
-a = 32'hFFFFFFFF; b = 32'h00000000; f = 3'b010; #10;
+
+a = 32'hFFFFFFFF; 
+
+b = 32'h00000000; 
+
+f = 3'b010; #10;
+
 // Test NOR
-a = 32'h00000000; b = 32'h00000000; f = 3'b011; #10;
+
+a = 32'h00000000;
+
+b = 32'h00000000; 
+
+f = 3'b011; #10;
+
 // Test ADD
-a = 32'd100; b = 32'd25; f = 3'b100; #10;
+
+a = 32'd100; 
+
+b = 32'd25; 
+
+f = 3'b100; #10;
+
 // Test SUB
-a = 32'd100; b = 32'd25; f = 3'b101; #10;
+
+a = 32'd100;
+
+b = 32'd25; 
+
+f = 3'b101; #10;
+
 // Test MUL
-a = 32'd10; b = 32'd3; f = 3'b110; #10;
+
+a = 32'd10; 
+
+b = 32'd3; 
+
+f = 3'b110; #10;
+
 // Test default
+
 f = 3'b111; #10;
+
 end
+
 endmodule
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
